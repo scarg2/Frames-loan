@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Inicio));
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnUser = new System.Windows.Forms.Button();
             this.btnPs = new System.Windows.Forms.Button();
             this.btnPayment = new System.Windows.Forms.Button();
             this.btnLoan = new System.Windows.Forms.Button();
@@ -73,7 +73,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.Color.MistyRose;
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.btnUser);
             this.panel1.Controls.Add(this.btnPs);
             this.panel1.Controls.Add(this.btnPayment);
             this.panel1.Controls.Add(this.btnLoan);
@@ -83,20 +83,20 @@
             this.panel1.Size = new System.Drawing.Size(171, 450);
             this.panel1.TabIndex = 0;
             // 
-            // button1
+            // btnUser
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.btnUser.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.BackColor = System.Drawing.Color.White;
-            this.button1.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.Image = global::LoanManagerApp.Properties.Resources.user;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.Location = new System.Drawing.Point(14, 15);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(143, 62);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Usuario";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnUser.BackColor = System.Drawing.Color.White;
+            this.btnUser.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnUser.Image = global::LoanManagerApp.Properties.Resources.user;
+            this.btnUser.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnUser.Location = new System.Drawing.Point(14, 15);
+            this.btnUser.Name = "btnUser";
+            this.btnUser.Size = new System.Drawing.Size(143, 62);
+            this.btnUser.TabIndex = 3;
+            this.btnUser.Text = "Usuario";
+            this.btnUser.UseVisualStyleBackColor = false;
             // 
             // btnPs
             // 
@@ -198,7 +198,7 @@
         private SplitContainer splitContainer1;
         private PictureBox pictureBox1;
         private Panel panel1;
-        private Button button1;
+        private Button btnUser;
         private Button btnPs;
         private Button btnPayment;
         private Button btnLoan;

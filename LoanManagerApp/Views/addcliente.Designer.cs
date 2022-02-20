@@ -28,30 +28,30 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnGuardarC = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtNombreC = new System.Windows.Forms.TextBox();
+            this.txtApellidoC = new System.Windows.Forms.TextBox();
+            this.txtDireccionC = new System.Windows.Forms.TextBox();
+            this.txtTelefono = new System.Windows.Forms.TextBox();
+            this.txtNoCed = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // btnGuardarC
             // 
-            this.button1.Image = global::LoanManagerApp.Properties.Resources.disquete;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.Location = new System.Drawing.Point(161, 466);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(141, 29);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Guardar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnGuardarC.Image = global::LoanManagerApp.Properties.Resources.disquete;
+            this.btnGuardarC.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnGuardarC.Location = new System.Drawing.Point(161, 488);
+            this.btnGuardarC.Name = "btnGuardarC";
+            this.btnGuardarC.Size = new System.Drawing.Size(141, 29);
+            this.btnGuardarC.TabIndex = 0;
+            this.btnGuardarC.Text = "Guardar";
+            this.btnGuardarC.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -98,40 +98,40 @@
             this.label5.TabIndex = 5;
             this.label5.Text = "No Cédula:";
             // 
-            // textBox1
+            // txtNombreC
             // 
-            this.textBox1.Location = new System.Drawing.Point(174, 116);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(233, 27);
-            this.textBox1.TabIndex = 6;
+            this.txtNombreC.Location = new System.Drawing.Point(174, 116);
+            this.txtNombreC.Name = "txtNombreC";
+            this.txtNombreC.Size = new System.Drawing.Size(233, 27);
+            this.txtNombreC.TabIndex = 6;
             // 
-            // textBox2
+            // txtApellidoC
             // 
-            this.textBox2.Location = new System.Drawing.Point(174, 174);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(233, 27);
-            this.textBox2.TabIndex = 7;
+            this.txtApellidoC.Location = new System.Drawing.Point(174, 174);
+            this.txtApellidoC.Name = "txtApellidoC";
+            this.txtApellidoC.Size = new System.Drawing.Size(233, 27);
+            this.txtApellidoC.TabIndex = 7;
             // 
-            // textBox4
+            // txtDireccionC
             // 
-            this.textBox4.Location = new System.Drawing.Point(174, 238);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(233, 27);
-            this.textBox4.TabIndex = 9;
+            this.txtDireccionC.Location = new System.Drawing.Point(174, 238);
+            this.txtDireccionC.Name = "txtDireccionC";
+            this.txtDireccionC.Size = new System.Drawing.Size(233, 27);
+            this.txtDireccionC.TabIndex = 9;
             // 
-            // textBox5
+            // txtTelefono
             // 
-            this.textBox5.Location = new System.Drawing.Point(174, 306);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(233, 27);
-            this.textBox5.TabIndex = 10;
+            this.txtTelefono.Location = new System.Drawing.Point(174, 306);
+            this.txtTelefono.Name = "txtTelefono";
+            this.txtTelefono.Size = new System.Drawing.Size(233, 27);
+            this.txtTelefono.TabIndex = 10;
             // 
-            // textBox3
+            // txtNoCed
             // 
-            this.textBox3.Location = new System.Drawing.Point(174, 371);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(233, 27);
-            this.textBox3.TabIndex = 11;
+            this.txtNoCed.Location = new System.Drawing.Point(174, 371);
+            this.txtNoCed.Name = "txtNoCed";
+            this.txtNoCed.Size = new System.Drawing.Size(233, 27);
+            this.txtNoCed.TabIndex = 11;
             // 
             // label6
             // 
@@ -149,19 +149,19 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(253)))), ((int)(((byte)(151)))));
-            this.ClientSize = new System.Drawing.Size(549, 584);
+            this.ClientSize = new System.Drawing.Size(497, 584);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtNoCed);
+            this.Controls.Add(this.txtTelefono);
+            this.Controls.Add(this.txtDireccionC);
+            this.Controls.Add(this.txtApellidoC);
+            this.Controls.Add(this.txtNombreC);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnGuardarC);
             this.Name = "addcliente";
             this.Text = "addcliente";
             this.ResumeLayout(false);
@@ -171,17 +171,17 @@
 
         #endregion
 
-        private Button button1;
+        private Button btnGuardarC;
         private Label label1;
         private Label label2;
         private Label label3;
         private Label label4;
         private Label label5;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox4;
-        private TextBox textBox5;
-        private TextBox textBox3;
+        private TextBox txtNombreC;
+        private TextBox txtApellidoC;
+        private TextBox txtDireccionC;
+        private TextBox txtTelefono;
+        private TextBox txtNoCed;
         private Label label6;
     }
 }

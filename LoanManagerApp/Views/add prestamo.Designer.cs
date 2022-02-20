@@ -29,13 +29,12 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(add_prestamo));
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.cmbTipoCalendario = new System.Windows.Forms.ComboBox();
+            this.cmbTerminos = new System.Windows.Forms.ComboBox();
+            this.cmbTipoPrestamo = new System.Windows.Forms.ComboBox();
+            this.btnGuardarP = new System.Windows.Forms.Button();
+            this.txtFechaPrestamo = new System.Windows.Forms.TextBox();
+            this.txtTasaInteres = new System.Windows.Forms.TextBox();
             this.txtMonto = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -46,64 +45,58 @@
             this.lblTasa = new System.Windows.Forms.Label();
             this.lblNombreLoan = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
-            // comboBox3
+            // cmbTipoCalendario
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(211, 448);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(273, 28);
-            this.comboBox3.TabIndex = 36;
+            this.cmbTipoCalendario.FormattingEnabled = true;
+            this.cmbTipoCalendario.Location = new System.Drawing.Point(214, 451);
+            this.cmbTipoCalendario.Name = "cmbTipoCalendario";
+            this.cmbTipoCalendario.Size = new System.Drawing.Size(273, 28);
+            this.cmbTipoCalendario.TabIndex = 36;
             // 
-            // comboBox2
+            // cmbTerminos
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(214, 274);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(270, 28);
-            this.comboBox2.TabIndex = 35;
+            this.cmbTerminos.FormattingEnabled = true;
+            this.cmbTerminos.Location = new System.Drawing.Point(214, 274);
+            this.cmbTerminos.Name = "cmbTerminos";
+            this.cmbTerminos.Size = new System.Drawing.Size(273, 28);
+            this.cmbTerminos.TabIndex = 35;
             // 
-            // comboBox1
+            // cmbTipoPrestamo
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(211, 395);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(273, 28);
-            this.comboBox1.TabIndex = 34;
+            this.cmbTipoPrestamo.FormattingEnabled = true;
+            this.cmbTipoPrestamo.Location = new System.Drawing.Point(214, 395);
+            this.cmbTipoPrestamo.Name = "cmbTipoPrestamo";
+            this.cmbTipoPrestamo.Size = new System.Drawing.Size(273, 28);
+            this.cmbTipoPrestamo.TabIndex = 34;
             // 
-            // button1
+            // btnGuardarP
             // 
-            this.button1.BackColor = System.Drawing.Color.White;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.Location = new System.Drawing.Point(180, 540);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(127, 29);
-            this.button1.TabIndex = 33;
-            this.button1.Text = "Guardar";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnGuardarP.BackColor = System.Drawing.Color.White;
+            this.btnGuardarP.Image = ((System.Drawing.Image)(resources.GetObject("btnGuardarP.Image")));
+            this.btnGuardarP.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnGuardarP.Location = new System.Drawing.Point(179, 554);
+            this.btnGuardarP.Name = "btnGuardarP";
+            this.btnGuardarP.Size = new System.Drawing.Size(127, 29);
+            this.btnGuardarP.TabIndex = 33;
+            this.btnGuardarP.Text = "Guardar";
+            this.btnGuardarP.UseVisualStyleBackColor = false;
             // 
-            // textBox5
+            // txtFechaPrestamo
             // 
-            this.textBox5.Location = new System.Drawing.Point(211, 334);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(273, 27);
-            this.textBox5.TabIndex = 32;
+            this.txtFechaPrestamo.Location = new System.Drawing.Point(214, 211);
+            this.txtFechaPrestamo.Name = "txtFechaPrestamo";
+            this.txtFechaPrestamo.Size = new System.Drawing.Size(273, 27);
+            this.txtFechaPrestamo.TabIndex = 31;
             // 
-            // textBox3
+            // txtTasaInteres
             // 
-            this.textBox3.Location = new System.Drawing.Point(211, 211);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(273, 27);
-            this.textBox3.TabIndex = 31;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(214, 148);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(273, 27);
-            this.textBox2.TabIndex = 30;
+            this.txtTasaInteres.Location = new System.Drawing.Point(214, 148);
+            this.txtTasaInteres.Name = "txtTasaInteres";
+            this.txtTasaInteres.Size = new System.Drawing.Size(273, 27);
+            this.txtTasaInteres.TabIndex = 30;
             // 
             // txtMonto
             // 
@@ -125,7 +118,7 @@
             // 
             this.label7.BackColor = System.Drawing.Color.LightSteelBlue;
             this.label7.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label7.Location = new System.Drawing.Point(25, 451);
+            this.label7.Location = new System.Drawing.Point(18, 454);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(142, 44);
             this.label7.TabIndex = 27;
@@ -135,7 +128,7 @@
             // 
             this.label6.BackColor = System.Drawing.Color.LightSteelBlue;
             this.label6.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(25, 395);
+            this.label6.Location = new System.Drawing.Point(18, 395);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(142, 38);
             this.label6.TabIndex = 26;
@@ -155,7 +148,7 @@
             // 
             this.label4.BackColor = System.Drawing.Color.LightSteelBlue;
             this.label4.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(24, 332);
+            this.label4.Location = new System.Drawing.Point(25, 332);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(136, 29);
             this.label4.TabIndex = 24;
@@ -176,7 +169,7 @@
             // 
             this.lblTasa.BackColor = System.Drawing.Color.LightSteelBlue;
             this.lblTasa.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblTasa.Location = new System.Drawing.Point(25, 145);
+            this.lblTasa.Location = new System.Drawing.Point(23, 151);
             this.lblTasa.Name = "lblTasa";
             this.lblTasa.Size = new System.Drawing.Size(126, 30);
             this.lblTasa.TabIndex = 22;
@@ -204,20 +197,32 @@
             this.label1.TabIndex = 37;
             this.label1.Text = "Datos del prestamo";
             // 
+            // comboBox4
+            // 
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Items.AddRange(new object[] {
+            "Semanal",
+            "Mensual",
+            "Quincenal"});
+            this.comboBox4.Location = new System.Drawing.Point(214, 332);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(273, 28);
+            this.comboBox4.TabIndex = 38;
+            // 
             // add_prestamo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.ClientSize = new System.Drawing.Size(561, 595);
+            this.ClientSize = new System.Drawing.Size(542, 595);
+            this.Controls.Add(this.comboBox4);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.cmbTipoCalendario);
+            this.Controls.Add(this.cmbTerminos);
+            this.Controls.Add(this.cmbTipoPrestamo);
+            this.Controls.Add(this.btnGuardarP);
+            this.Controls.Add(this.txtFechaPrestamo);
+            this.Controls.Add(this.txtTasaInteres);
             this.Controls.Add(this.txtMonto);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label7);
@@ -236,13 +241,12 @@
 
         #endregion
 
-        private ComboBox comboBox3;
-        private ComboBox comboBox2;
-        private ComboBox comboBox1;
-        private Button button1;
-        private TextBox textBox5;
-        private TextBox textBox3;
-        private TextBox textBox2;
+        private ComboBox cmbTipoCalendario;
+        private ComboBox cmbTerminos;
+        private ComboBox cmbTipoPrestamo;
+        private Button btnGuardarP;
+        private TextBox txtFechaPrestamo;
+        private TextBox txtTasaInteres;
         private TextBox txtMonto;
         private Label label9;
         private Label label7;
@@ -253,5 +257,6 @@
         private Label lblTasa;
         private Label lblNombreLoan;
         private Label label1;
+        private ComboBox comboBox4;
     }
 }

@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.binAddCustomer = new System.Windows.Forms.Button();
+            this.btnEliminarC = new System.Windows.Forms.Button();
+            this.btnEditarC = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.CustomerId = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Names = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -44,41 +44,41 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // binAddCustomer
             // 
-            this.button1.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.Image = global::LoanManagerApp.Properties.Resources.agregar_usuario;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.Location = new System.Drawing.Point(108, 533);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(129, 40);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Agregar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.binAddCustomer.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.binAddCustomer.Image = global::LoanManagerApp.Properties.Resources.agregar_usuario;
+            this.binAddCustomer.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.binAddCustomer.Location = new System.Drawing.Point(108, 533);
+            this.binAddCustomer.Name = "binAddCustomer";
+            this.binAddCustomer.Size = new System.Drawing.Size(129, 40);
+            this.binAddCustomer.TabIndex = 0;
+            this.binAddCustomer.Text = "Agregar";
+            this.binAddCustomer.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnEliminarC
             // 
-            this.button2.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.Image = global::LoanManagerApp.Properties.Resources.dejar_de_seguir;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button2.Location = new System.Drawing.Point(378, 533);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(163, 40);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Eliminar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnEliminarC.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnEliminarC.Image = global::LoanManagerApp.Properties.Resources.dejar_de_seguir;
+            this.btnEliminarC.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnEliminarC.Location = new System.Drawing.Point(378, 533);
+            this.btnEliminarC.Name = "btnEliminarC";
+            this.btnEliminarC.Size = new System.Drawing.Size(163, 40);
+            this.btnEliminarC.TabIndex = 1;
+            this.btnEliminarC.Text = "Eliminar";
+            this.btnEliminarC.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnEditarC
             // 
-            this.button3.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button3.Image = global::LoanManagerApp.Properties.Resources.usuario;
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button3.Location = new System.Drawing.Point(645, 533);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(149, 40);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Editar";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnEditarC.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnEditarC.Image = global::LoanManagerApp.Properties.Resources.usuario;
+            this.btnEditarC.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnEditarC.Location = new System.Drawing.Point(645, 533);
+            this.btnEditarC.Name = "btnEditarC";
+            this.btnEditarC.Size = new System.Drawing.Size(149, 40);
+            this.btnEditarC.TabIndex = 2;
+            this.btnEditarC.Text = "Editar";
+            this.btnEditarC.UseVisualStyleBackColor = true;
             // 
             // dataGridView1
             // 
@@ -173,14 +173,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.MistyRose;
+            this.BackColor = System.Drawing.Color.LightSteelBlue;
             this.ClientSize = new System.Drawing.Size(920, 601);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnEditarC);
+            this.Controls.Add(this.btnEliminarC);
+            this.Controls.Add(this.binAddCustomer);
             this.Name = "viewcliente";
             this.Text = "viewcliente";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -191,9 +191,9 @@
 
         #endregion
 
-        private Button button1;
-        private Button button2;
-        private Button button3;
+        private Button binAddCustomer;
+        private Button btnEliminarC;
+        private Button btnEditarC;
         private DataGridView dataGridView1;
         private DataGridViewTextBoxColumn CustomerId;
         private DataGridViewTextBoxColumn Names;
